@@ -34,11 +34,6 @@ const SavedBooks = () => {
     }
   };
 
-  // if data isn't here yet, say so
-  if (!userDataLength) {
-    return <h2>LOADING...</h2>;
-  }
-
   return (
     <>
       <Jumbotron fluid className='text-light bg-dark'>
